@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "declaration": true,
+    "sourceMap": true,
+    "ignoreDeprecations": "6.0",
+    "allowImportingTsExtensions": true,
+    "rewriteRelativeImportExtensions": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@cvg/shift-model-provider": [
+        "packages/shift-model-provider/src/index.ts"
+      ],
+      "@cvg/shared": ["packages/shared/src/index.ts"]
+    }
+  }
+}

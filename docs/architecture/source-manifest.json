@@ -1,0 +1,225 @@
+{
+  "project": "cvg-assistente-plantao",
+  "captured_at": "2026-10-01T19:01:53.718883-03:00",
+  "source_repository": "https://github.com/ricardoakinaga-dev/cvg-operational-harness",
+  "source_head": "cc1402ff163a34352c10405e9e5c77c653596084",
+  "source_paths_status_at_capture": [],
+  "files": [
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/__tests__/shift-assistant-e2e.test.ts",
+      "destination_path": "src/shift-assistant/__tests__/shift-assistant-e2e.test.ts",
+      "source_sha256": "b13432c8b513e4d4cc70429bf44796be0921f5163e20b3bfb30cbcb12c618cbe",
+      "destination_sha256": "b13432c8b513e4d4cc70429bf44796be0921f5163e20b3bfb30cbcb12c618cbe",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/__tests__/shift-assistant.test.ts",
+      "destination_path": "src/shift-assistant/__tests__/shift-assistant.test.ts",
+      "source_sha256": "a9ce8ca005ba5f3ec756716626fc59f948ce10ad5f89eaa44b62f314df2c0a92",
+      "destination_sha256": "a3d249950f28b1633c980de5f1d29270d0ec4fd225ddd43c50ace7475c3b4ce3",
+      "status": "ADAPTED"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/assistant.ts",
+      "destination_path": "src/shift-assistant/assistant.ts",
+      "source_sha256": "28ffee60f5d3f0192f57e08fb3f45b81ff410b3b4c61fcb3d2f537a457bb4630",
+      "destination_sha256": "28ffee60f5d3f0192f57e08fb3f45b81ff410b3b4c61fcb3d2f537a457bb4630",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/commands.ts",
+      "destination_path": "src/shift-assistant/commands.ts",
+      "source_sha256": "a27157a77b86d09d12b17f0ce617c06c6cee93afbe007228268b46ed2f887c13",
+      "destination_sha256": "a27157a77b86d09d12b17f0ce617c06c6cee93afbe007228268b46ed2f887c13",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/compose.ts",
+      "destination_path": "src/shift-assistant/compose.ts",
+      "source_sha256": "7c416a55fbde5126678c721b31dd68738f34b3acfe008c42c8c5e3f773a754da",
+      "destination_sha256": "73c89a014497938d35b6388bd8976169d012fbf76b5e8ad089f33302b866ecba",
+      "status": "ADAPTED"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/config.ts",
+      "destination_path": "src/shift-assistant/config.ts",
+      "source_sha256": "16515bfea640310971e2e8ecdf71301bab0d79e9dd4167e3186ea6e0a2f1578a",
+      "destination_sha256": "16515bfea640310971e2e8ecdf71301bab0d79e9dd4167e3186ea6e0a2f1578a",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/domain.ts",
+      "destination_path": "src/shift-assistant/domain.ts",
+      "source_sha256": "db9ff01eeecca38e18c316acd0f6de2184cde762c936b2171ee9d8d3bd4d5744",
+      "destination_sha256": "db9ff01eeecca38e18c316acd0f6de2184cde762c936b2171ee9d8d3bd4d5744",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/egress.ts",
+      "destination_path": "src/shift-assistant/egress.ts",
+      "source_sha256": "e8d4e81a1ab8f49202c555bcee9059e096f150561f5f2ecc1f09a4375d688ab6",
+      "destination_sha256": "e8d4e81a1ab8f49202c555bcee9059e096f150561f5f2ecc1f09a4375d688ab6",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/main.ts",
+      "destination_path": "src/shift-assistant/main.ts",
+      "source_sha256": "98488b709acb0a63f99cf5125196726d3eefb1a7b2e9d616c0490ac806a02676",
+      "destination_sha256": "98488b709acb0a63f99cf5125196726d3eefb1a7b2e9d616c0490ac806a02676",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/organizer.ts",
+      "destination_path": "src/shift-assistant/organizer.ts",
+      "source_sha256": "eb279814d70484b32f2809f21835a07bc6bd8cc81a8fbc884f5feeb2ffc55d0a",
+      "destination_sha256": "174e4c32aa45784f2fb2bf8a5bd83a1bb7a7be1db6d9a0dc97434d93561ec75e",
+      "status": "ADAPTED"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/sandbox/chat.ts",
+      "destination_path": "src/shift-assistant/sandbox/chat.ts",
+      "source_sha256": "343240d8a7c2911f197c88bcbec66ec74e4c1ca900e40d34c79bdb11c27f0159",
+      "destination_sha256": "8945404e57c22fed4b0f2446912a46e7c194ba662660a0862a14597aa53e6c7c",
+      "status": "ADAPTED"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/sandbox/demo.ts",
+      "destination_path": "src/shift-assistant/sandbox/demo.ts",
+      "source_sha256": "a4891e6223b6f5b3c7707f05fc3ca7b86edcc8a2f82eead285514d84921c20f4",
+      "destination_sha256": "0f1e441781359807194716accf25196239ebec8eabd3dcda398097653cd58929",
+      "status": "ADAPTED"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/sandbox/services.ts",
+      "destination_path": "src/shift-assistant/sandbox/services.ts",
+      "source_sha256": "1f70db0969cce6d26b19ecaadb2a0b8e0280c743a7cc26a4a05c94c68cb27328",
+      "destination_sha256": "1f70db0969cce6d26b19ecaadb2a0b8e0280c743a7cc26a4a05c94c68cb27328",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/server.ts",
+      "destination_path": "src/shift-assistant/server.ts",
+      "source_sha256": "876c20c54436379eef1c440e27f47e1d78fedb1ff4bc89ac9f17735190aa980d",
+      "destination_sha256": "876c20c54436379eef1c440e27f47e1d78fedb1ff4bc89ac9f17735190aa980d",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/store.ts",
+      "destination_path": "src/shift-assistant/store.ts",
+      "source_sha256": "951e0bd07af1805333eeaf8b569291fead6395de884dc75e28b91e196e05e9c9",
+      "destination_sha256": "951e0bd07af1805333eeaf8b569291fead6395de884dc75e28b91e196e05e9c9",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/transcriber.ts",
+      "destination_path": "src/shift-assistant/transcriber.ts",
+      "source_sha256": "6e3cfd0ffd486c71bad64ae80ad67dc04cf6c04608bb251b940c610236865a9b",
+      "destination_sha256": "6e3cfd0ffd486c71bad64ae80ad67dc04cf6c04608bb251b940c610236865a9b",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "product-source",
+      "source_path": "apps/worker/src/shift-assistant/whatsapp.ts",
+      "destination_path": "src/shift-assistant/whatsapp.ts",
+      "source_sha256": "006af00421baf122e73fdc0505981ece07785584357a17094f90f1a355f2643c",
+      "destination_sha256": "006af00421baf122e73fdc0505981ece07785584357a17094f90f1a355f2643c",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "model-provider",
+      "source_path": "packages/model-gateway/src/providers/openai-compatible.ts",
+      "destination_path": "packages/shift-model-provider/src/providers/openai-compatible.ts",
+      "source_sha256": "ace7d88ef931a9d0c25102ed20b01c8acece2b767b6a098474b5443030e3eecd",
+      "destination_sha256": "ace7d88ef931a9d0c25102ed20b01c8acece2b767b6a098474b5443030e3eecd",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "model-provider-contract",
+      "source_path": "packages/model-gateway/src/contracts.ts",
+      "destination_path": "packages/shift-model-provider/src/contracts.ts",
+      "source_sha256": "39136bad66e6dc5216ad4023eaa91d7915bd32e2eed9e756e0f4531d765198a3",
+      "destination_sha256": "39136bad66e6dc5216ad4023eaa91d7915bd32e2eed9e756e0f4531d765198a3",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "model-provider-errors",
+      "source_path": "packages/model-gateway/src/errors.ts",
+      "destination_path": "packages/shift-model-provider/src/errors.ts",
+      "source_sha256": "093614b407516394e63917ad7f7bb2d7ff1fa56e11bab8fe2331632873271267",
+      "destination_sha256": "093614b407516394e63917ad7f7bb2d7ff1fa56e11bab8fe2331632873271267",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "model-provider-errors",
+      "source_path": "packages/model-gateway/src/providers/http-errors.ts",
+      "destination_path": "packages/shift-model-provider/src/providers/http-errors.ts",
+      "source_sha256": "f31c47e7abc90268c43b06619b1a47ed37754afa93d95dd12dbb3f75d25077e1",
+      "destination_sha256": "f31c47e7abc90268c43b06619b1a47ed37754afa93d95dd12dbb3f75d25077e1",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "model-provider-transport",
+      "source_path": "packages/model-gateway/src/providers/ssrf-node.ts",
+      "destination_path": "packages/shift-model-provider/src/providers/ssrf-node.ts",
+      "source_sha256": "07a873e47ff89580f4c497536e83501af65cededf715e5977a369b19e3af695a",
+      "destination_sha256": "07a873e47ff89580f4c497536e83501af65cededf715e5977a369b19e3af695a",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "local-provider-entrypoint",
+      "source_path": "packages/model-gateway/src/index.ts",
+      "destination_path": "packages/shift-model-provider/src/index.ts",
+      "source_sha256": "b1a451dfb0ccef665f17bdf583badae147164c6771f8b10a45badbdae2e5c0a9",
+      "destination_sha256": "c3e45934b53864e2668d6d8e2b31c9216134e69f731df35a4435c1e4d3640860",
+      "status": "ADAPTED"
+    },
+    {
+      "category": "egress-guard",
+      "source_path": "packages/shared/src/ssrf.ts",
+      "destination_path": "packages/shared/src/ssrf.ts",
+      "source_sha256": "57cdb8f623278fa46a582e60cc58b42f55b741e14cf084940a6bd523217ec7af",
+      "destination_sha256": "57cdb8f623278fa46a582e60cc58b42f55b741e14cf084940a6bd523217ec7af",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "data-classification",
+      "source_path": "packages/shared/src/data-classification.ts",
+      "destination_path": "packages/shared/src/data-classification.ts",
+      "source_sha256": "2f8a0ad5e614dad1b1494a5855ab4281658596b0dae9fd19f2d79b5b4df147e3",
+      "destination_sha256": "2f8a0ad5e614dad1b1494a5855ab4281658596b0dae9fd19f2d79b5b4df147e3",
+      "status": "IDENTICAL"
+    },
+    {
+      "category": "local-shared-entrypoint",
+      "source_path": "packages/shared/src/index.ts",
+      "destination_path": "packages/shared/src/index.ts",
+      "source_sha256": "6de1803ebdf745d1df1ff81881102a8d012de8b1277ac92adda958b64a17e856",
+      "destination_sha256": "bbf7e63e7851c74dd0f3cb66a497085a4c544677b3a69821f39791812b81baf2",
+      "status": "ADAPTED"
+    }
+  ],
+  "notes": [
+    "The shift-assistant application and tests were moved under src/.",
+    "The OpenAI-compatible provider adapter and its contracts, errors and bound transport were copied as a small local provider package.",
+    "The provider package entrypoint exports only the provider used by this application.",
+    "Only the required shared egress guard and data-classification source were included.",
+    "Application provider import paths and sandbox command comments were adapted.",
+    "The Operational Harness runtime, orchestrator, policy engine, approval engine, persistence service and general worker are not included."
+  ]
+}

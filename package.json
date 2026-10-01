@@ -1,0 +1,36 @@
+{
+  "name": "cvg-assistente-plantao",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Assistente de Plantão da CVG: caderno de plantão e acompanhamento de pendências da equipe.",
+  "type": "module",
+  "engines": {
+    "node": ">=22 <23"
+  },
+  "scripts": {
+    "start": "node dist/shift-assistant.mjs",
+    "dev": "node --env-file=deploy/shift-assistant/.env --import tsx src/shift-assistant/main.ts",
+    "demo": "tsx src/shift-assistant/sandbox/demo.ts",
+    "chat": "tsx src/shift-assistant/sandbox/chat.ts",
+    "bundle": "esbuild src/shift-assistant/main.ts --bundle --platform=node --target=node22 --format=esm --tsconfig=tsconfig.base.json --legal-comments=none --banner:js=\"import { createRequire } from 'node:module'; const require = createRequire(import.meta.url);\" --outfile=dist/shift-assistant.mjs",
+    "typecheck": "tsc -p tsconfig.typecheck.json --noEmit",
+    "lint": "eslint .",
+    "format:check": "prettier --check .",
+    "test": "vitest run --no-file-parallelism --maxWorkers=2",
+    "docs:check": "node scripts/check-doc-links.mjs",
+    "verify": "npm run format:check && npm run typecheck && npm run lint && npm run docs:check && npm run bundle && npm test"
+  },
+  "dependencies": {
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "esbuild": "^0.27.3",
+    "eslint": "^10.2.1",
+    "prettier": "^3.8.3",
+    "tsx": "^4.23.12",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.59.1",
+    "vitest": "^4.1.11"
+  }
+}

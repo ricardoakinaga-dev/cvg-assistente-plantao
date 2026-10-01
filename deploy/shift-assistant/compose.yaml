@@ -1,0 +1,25 @@
+services:
+  shift-assistant:
+    build:
+      context: ../..
+      dockerfile: Dockerfile
+    image: cvg-assistente-plantao:local
+    env_file: .env
+    environment:
+      SHIFT_DATA_DIR: /data
+      SHIFT_HOST: 0.0.0.0
+    ports:
+      - '127.0.0.1:3400:3400'
+    volumes:
+      - shift-data:/data
+    read_only: true
+    tmpfs:
+      - /tmp
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    restart: unless-stopped
+
+volumes:
+  shift-data:
