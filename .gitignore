@@ -1,0 +1,30 @@
+# Dependências e artefatos locais
+node_modules/
+dist/
+build/
+coverage/
+test-results/
+playwright-report/
+*.tsbuildinfo
+*.log
+
+# Segredos: somente exemplos sem valores reais podem ser versionados.
+.env
+.env.*
+**/.env
+**/.env.*
+!.env.example
+!**/.env.example
+*.pem
+*.key
+
+# Dados operacionais e backups não pertencem ao código-fonte.
+/data/
+/runtime-data/
+/state/
+/backups/
+events.jsonl
+
+# Arquivos locais do sistema
+.DS_Store
+Thumbs.db
